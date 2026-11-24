@@ -1,0 +1,111 @@
+@charset "Shift_JIS";
+
+/* 全体構造
+---------------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background: #ffffff;
+}
+#wrapper {
+  width: 100%;
+  border-top: 13px solid #36bb63;
+  color: #333333;
+  background: #ffffff;
+}
+
+/* リンク
+---------------------------------------------------- */
+a:link {
+  color: #3355ff;
+  background: transparent;
+}
+a:visited {
+  color: #800080;
+  background: transparent;
+}
+a:hover, a:active {
+  color: #ffddaa;
+  background: transparent;
+}
+
+/* ヘッダ
+---------------------------------------------------- */
+#header {
+  margin: 18px 0 0 30px;
+}
+#header h1 {
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: #36bb63;
+}
+
+/* ナビゲーション
+---------------------------------------------------- */
+#navigation {
+  float: left;
+  width: 150px;
+  margin-top: 0px;
+  border-top: 13px solid #36bb63;
+}
+#navigation p {
+  margin: 15px 0 0 0;
+  padding: 7px;
+}
+#navigation address {
+  margin: 25px 0 0 0;
+  padding: 17px 0 12pt 0;
+  border-top: 1px solid #cccccc;
+  font-style: normal;
+  font-size: 0.9em;
+  line-height: 1.5;
+  background: transparent;
+}
+#navigation address a {
+  text-decoration: none;
+}
+
+/* コンテンツ
+---------------------------------------------------- */
+#content {
+  margin: 35px 50px 0 200px;
+  padding-bottom: 10px;
+}
+#content h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom:1px solid #cccccc;
+  font-size: 1.7em;
+  color: #36bb63;
+}
+#content h2 {
+  margin: 25px 0 0 0;
+  font-size: 1.3em;
+  font-weight: normal;
+  color: #3355ff;
+  background: transparent;
+}
+#content p {
+  line-height: 1.5;
+}
+#content ul {
+  line-height: 1.5;
+}
+#content ol {
+  line-height: 1.5;
+}
+
+
+/* フッタ
+---------------------------------------------------- */
+#footer {
+  clear: both;
+}
+#footer p {
+  margin: 0;
+  padding: 10px 10px 10px 0;
+  border-top: 1px solid #cccccc;
+  text-align: right;
+  font-size: 0.9em;
+}

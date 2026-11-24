@@ -1,0 +1,14 @@
+@charset "Shift_JIS";
+
+body {
+  color: #000000;
+  background: #ffffff;
+}
+a img {
+  border: none;
+  color: #ffffff;
+  background: transparent;
+}
+h2 {
+  font-size: medium;
+}
